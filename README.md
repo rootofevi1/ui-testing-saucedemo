@@ -3,7 +3,7 @@ Web UI test automation with Selenide, Cucumber, JUnit Platform and Allure.
 
 [![Compile and optional UI tests](https://github.com/rootofevi1/ui-testing-saucedemo/actions/workflows/verify.yml/badge.svg)](https://github.com/rootofevi1/ui-testing-saucedemo/actions/workflows/verify.yml)
 
-Учебный проект Александра для демонстрационного интернет-магазина SauceDemo. Одни пользовательские потоки реализованы как обычные Java-тесты и как сценарии Gherkin на русском языке.
+Учебный проект выполнен для демонстрационного интернет-магазина SauceDemo. Одни пользовательские потоки реализованы как обычные Java-тесты и как сценарии Gherkin на русском языке.
 
 ## Сценарии
 
@@ -66,8 +66,6 @@ Windows PowerShell, с видимым браузером:
 Gradle HTML: build/reports/tests/test/index.html. Allure results: build/allure-results.
 
 CI компилирует тесты при изменениях. Полный браузерный прогон запускается вручную через Actions с параметром run_ui_tests. Внешний стенд может быть недоступен или менять разметку; CI компиляции и результаты UI-тестов оцениваются отдельно.
-
-## Происхождение
 
 Включены исходники решения и необходимая конфигурация сборки. Тексты заданий, учебные материалы, исходные README курса и история учебного репозитория не публикуются.
 
